@@ -1,0 +1,380 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+    font-family: sans-serif;
+    background-color: #12364F;
+}
+
+header {
+    
+    width: 100%;
+    height: 108px;
+    justify-content: space-between;
+    background: #020824;
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    top:20px;
+    left: 20px;
+    width: 124px;
+    height: 43px;
+    
+    display: flex;
+}
+
+.download {
+    /* Rectangle 4 */
+    width: 206px;
+    height: 35px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    background: #048415;
+    color: white;
+    text-decoration: none;
+    /* Встановити Steam */
+    padding-top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 12px;
+
+}
+
+nav {
+    display: flex;
+    margin-top:15px;
+    background-image: linear-gradient(to right, #5CA5F2, #386696);
+    /* Rectangle 3 */
+    justify-content: space-around;
+    width: 100%;
+    height: 85px;
+    background: linear-gradient(90deg, #5CA5F2 0%, #386696 100%);
+
+
+}
+
+nav a {
+    
+    text-decoration: none;
+    padding: 30px 10px 10px 10px;
+    opacity: 0.5;
+    align-items: center;
+    /* Магазин */
+    width: 200px;
+    height: 22px;
+    justify-content: space-around;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+
+}
+
+.dyy {
+    margin-top:20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hreef a {
+    position: relative;
+    top: -5px;
+    display: block;
+    background: linear-gradient(278.48deg, #5FD5FD 15.65%, #386696 94.08%);
+    padding: 25px 25px 25px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.dylight {
+    text-align: center; 
+    align-items: center;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.action1 img, .action2 img {
+    
+    width: 250px;
+    height: 200px;
+    opacity: 0.7;
+}
+
+.action1 a, .action2 a {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    top: -5px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    background-image: linear-gradient(to right bottom, #03516A, #069ED0);
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    opacity: 0.7;
+    height: 80px;
+}
+.action_column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.action3 img, .action4 img {
+
+    width: 150px;
+    height: 110px;
+    opacity: 0.7;
+}
+
+.action3 a, .action4 a {
+    color: white;
+    display: block;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: -5px;
+    text-decoration: none;
+    background-image: linear-gradient(to right bottom, #03516A, #069ED0);
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    opacity: 0.7;
+    width: 110px;
+}
+
+
+.battlefield {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.game img { 
+    width: 205px;
+    height: 205px;
+    border-radius: 10px;
+}
+.vertical_line{
+    width: 2.5px;
+    height: 205px;
+    background-color: white;
+}
+
+.welcome {
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+    height: 102px;
+    background: #102C40;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.welcome p {
+    /* Увійдіть, щоб переглянути особисті рекомендації */
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+}
+.welcome_a{
+    color: white;
+}
+.wee {
+    color: white;
+    text-decoration: none; 
+    background-color: #5CAE1E;
+    
+    padding: 5px 25px 5px 25px;
+}
+
+
+
+.navigation2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vertical_line2{
+    width: 2.5px;
+    height: 30px;
+    background-color: white;
+}
+
+.navigation2 a {
+    background-image: linear-gradient(to left, #0B90BC, #5FD5FD);
+    color: white;
+    text-decoration: none; 
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+
+
+.race {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+}
+
+.img {
+    width: 200px;
+    height: 156px;
+    border-radius: 10px;
+}
+
+
+.other {
+    background-color: #174362;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.more{
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+.more img {
+    width: 225px;
+    height: 100px;
+}
+
+.more a {
+    width: 100%;
+    display: block;
+
+    padding: 10px 0px 0px 10px;
+    background: #112F44;
+    color: white;
+    text-decoration: none;
+
+}
+
+.right img {
+    margin-left: 30px;
+    width: 250px;
+    height: 600px;
+}
+
+footer {
+  
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div{
+    height: 300px;
+    margin: 10px;
+}
+footer p {
+    text-align: justify;
+    height: 29px;
+    width: 700px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer_img {
+    padding-top: 20px;
+    width: 144px;
+    height: 103px;
+}
+
+nav a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.download:hover {
+    border: 10px solid #048415;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.action1 :hover, .action2 :hover, .action3 :hover, .action4 :hover {
+    opacity: 1;
+    transition: 1.5s linear;
+    text-decoration: underline;
+}
+
+.game :hover {
+    border: 2px solid white;
+}
+
+.wee:hover {
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+}
+
+.navigation2 a:hover {
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+    transition: 1s linear;
+}
+
+.game5 :hover, .game6 :hover, .game7 :hover {
+    width: 212px;
+    height: 136px;
+    transition: 1s linear;
+}
+
+.more a:hover {
+    background-color: #0B90BC;
+    border-left: 2px solid #112F44;
+}
+
+.hreef:hover {
+    text-decoration:underline;
+    color:white;
+}
